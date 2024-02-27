@@ -37,16 +37,7 @@ def access():
         )
         mail.send(mssg)
         
-
-        
-        # con=mysql.connector.connect(host='localhost',user='root',database='web',password='W7301@jqir#')
-        # cur=con.cursor()
-        # cur.execute("insert into frm(name,email,date,per,msg) values('"+name+"','"+email+"','"+date+"','"+person+"','"+msg+"')")
-        # con.commit()
     
-    
-    
-        
     return redirect("/")
     
     
@@ -106,9 +97,7 @@ if __name__=='__main__':
     
     
     
-# @app.route("/about")
-# def about():
-#     return render_template("about.html") 
+
  
 
 
