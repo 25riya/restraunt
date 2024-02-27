@@ -39,10 +39,10 @@ def access():
         
 
         
-        con=mysql.connector.connect(host='localhost',user='root',database='web',password='W7301@jqir#')
-        cur=con.cursor()
-        cur.execute("insert into frm(name,email,date,per,msg) values('"+name+"','"+email+"','"+date+"','"+person+"','"+msg+"')")
-        con.commit()
+        # con=mysql.connector.connect(host='localhost',user='root',database='web',password='W7301@jqir#')
+        # cur=con.cursor()
+        # cur.execute("insert into frm(name,email,date,per,msg) values('"+name+"','"+email+"','"+date+"','"+person+"','"+msg+"')")
+        # con.commit()
     
     
     
