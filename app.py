@@ -91,9 +91,7 @@ def acc():
         mail.send(mssg)
         return redirect("/contact")
     
-if __name__=='__main__':
-     app.run(debug=True)
-    
+
     
     
     
