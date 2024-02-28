@@ -3,9 +3,9 @@ import mysql.connector
 import datetime
 from flask_mail import Mail,Message
 app=Flask(__name__) 
-app.secret_key="Riya"
+app.secret_key="Rohit"
 #----------------------------------------------------------------mail-----------------------------------------------------------------
-app.config['SECRET KEY']='Riya'
+app.config['SECRET KEY']='Rohit'
 app.config['MAIL_SERVER']='smtp.gmail.com'
 app.config['MAIL_PORT']=587
 
@@ -37,7 +37,11 @@ def access():
         )
         mail.send(mssg)
         
+
+       
     
+    
+        
     return redirect("/")
     
     
@@ -90,13 +94,6 @@ def acc():
         )
         mail.send(mssg)
         return redirect("/contact")
-    
-
-    
-    
-    
-
- 
 
 
 
